@@ -1,0 +1,16 @@
+Pipes Examples
+---- start ---
+<h1>{{title | uppercase}}</h1>
+<p>Today is {{today | date}}</p>
+<p>Or if you prefer, {{today | date:'fullDate'}}</p>
+<p>The time is {{today | date:'h:mm a z'}}</p>
+--- end ---
+
+
+<div *ngFor="let list of courses" class="card" style="width: 18rem;">
+
+  <img src="" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example.{{list.name}} - {{list.description}}</p>
+  </div>
+</div>
