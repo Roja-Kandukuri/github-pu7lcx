@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gadgetlist.component.css']
 })
 export class GadgetlistComponent implements OnInit {
-gadgets=[{name:"ring" , imgsrc:"assets/images/ring"} , {name:"comb.jpg" , imgsrc:"assets/images/comb.jpg"}]
-  constructor() { }
+  gadgets = [
+    { name: 'ring', imgsrc: 'assets/images/ring' },
+    { name: 'comb.jpg', imgsrc: 'assets/images/iphone.jpg' }
+  ];
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
