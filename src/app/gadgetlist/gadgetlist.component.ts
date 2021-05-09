@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GadgetlistComponent implements OnInit {
   gadgets = [
-    { name: 'ring', imgsrc: 'assets/images/ring' },
-    { name: 'comb.jpg', imgsrc: 'assets/images/iphone.jpg' }
+    {
+      name: 'Iphone',
+      imgsrc:
+        'https://raw.githubusercontent.com/Roja-Kandukuri/github-pu7lcx/master/src/assets/images/iphone.jpg'
+    }
   ];
   constructor() {}
 
