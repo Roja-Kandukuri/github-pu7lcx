@@ -10,8 +10,8 @@ export class CoursesComponent implements OnInit {
   today: number = Date.now();
   courses = [
     { name: 'course1', description: 'mathematics', imgsrc: '' },
-    { name0: 'course2', description: 'physics' },
-    { name: 'course3', description: 'science' }
+    { name0: 'course2', description: 'physics', imgsrc: '' },
+    { name: 'course3', description: 'science', imgsrc: '' }
   ];
 
   constructor() {}

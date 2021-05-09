@@ -9,8 +9,11 @@ export class VegetablelistComponent implements OnInit {
   title = 'List of Vegetables';
   today: number = Date.now();
   vegetables = [
-    { name: 'bendi', imgsrc: 'assets/images/bendi.jpg' },
-    { name: 'carrot.jpg', imgsrc: 'assets/images/carrot.jpg' }
+    {
+      name: 'carrot',
+      imgsrc:
+        'https://cdn.jsdelivr.net/gh/Roja-Kandukuri/hello-world-test@3b355c5bef1dcab7e2dac2ddce04934dcf7a856e/src/assets/images/carrot.jpg'
+    }
   ];
   constructor() {}
   onclickveg() {
