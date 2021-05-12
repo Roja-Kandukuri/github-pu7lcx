@@ -8,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class GadgetlistComponent implements OnInit {
   gadgets = [
     {
+      name: 'Camera',
+      imgsrc:
+        'https://github.com/Roja-Kandukuri/github-pu7lcx/blob/feature/courses-images/src/assets/images/camera.png'
+    },
+    {
       name: 'Iphone',
       imgsrc:
-        'https://raw.githubusercontent.com/Roja-Kandukuri/github-pu7lcx/master/src/assets/images/iphone.jpg'
+        'https://github.com/Roja-Kandukuri/github-pu7lcx/blob/feature/courses-images/src/assets/images/iphone.png'
+    },
+    {
+      name: 'Computer',
+      imgsrc:
+        'https://github.com/Roja-Kandukuri/github-pu7lcx/blob/feature/courses-images/src/assets/images/laptop.png'
     }
   ];
   constructor() {}
