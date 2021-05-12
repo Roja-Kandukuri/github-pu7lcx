@@ -21,7 +21,12 @@ export class CoursesComponent implements OnInit {
       imgsrc:
         'https://raw.githubusercontent.com/Roja-Kandukuri/github-pu7lcx/feature/courses-images/src/assets/images/Phisics.png'
     },
-    { name: 'course3', description: 'science', imgsrc: '' }
+    {
+      name: 'course3',
+      description: 'Computer Basics',
+      imgsrc:
+        'https://raw.githubusercontent.com/Roja-Kandukuri/github-pu7lcx/feature/courses-images/src/assets/images/computers.png'
+    }
   ];
 
   constructor() {}
