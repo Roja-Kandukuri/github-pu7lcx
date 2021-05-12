@@ -10,17 +10,17 @@ export class GadgetlistComponent implements OnInit {
     {
       name: 'Camera',
       imgsrc:
-        'https://github.com/Roja-Kandukuri/github-pu7lcx/blob/feature/courses-images/src/assets/images/camera.png'
+        'https://raw.githubusercontent.com/Roja-Kandukuri/github-pu7lcx/feature/courses-images/src/assets/images/camera.png'
     },
     {
       name: 'Iphone',
       imgsrc:
-        'https://github.com/Roja-Kandukuri/github-pu7lcx/blob/feature/courses-images/src/assets/images/iphone.png'
+        'https://raw.githubusercontent.com/Roja-Kandukuri/github-pu7lcx/feature/courses-images/src/assets/images/iphone.png'
     },
     {
       name: 'Computer',
       imgsrc:
-        'https://github.com/Roja-Kandukuri/github-pu7lcx/blob/feature/courses-images/src/assets/images/laptop.png'
+        'https://raw.githubusercontent.com/Roja-Kandukuri/github-pu7lcx/feature/courses-images/src/assets/images/laptop.png'
     }
   ];
   constructor() {}
