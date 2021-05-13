@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses.component';
 import { HeaderComponent } from './header/header.component';
-import { VegetablelistComponent } from './vegetablelist/vegetablelist.component';
 import { ElectroniclistComponent } from './electroniclist/electroniclist.component';
 import { FlowerslistComponent } from './flowerslist/flowerslist.component';
 import { FooterComponent } from './footer/footer.component';
@@ -18,7 +17,6 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     CoursesComponent,
     HeaderComponent,
-    VegetablelistComponent,
     ElectroniclistComponent,
     FlowerslistComponent,
     FooterComponent,
